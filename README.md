@@ -12,7 +12,7 @@ Load as an Ink plugin.
 <script type="text/javascript">
     Ink.requireModules(['Ink.Ext.Respond_1'], function(Respond) {
         var Respond = new Respond({
-                        'delay': 200
+                        'delay': 200,
                         'target': document.body,
                         'debug': false
                     });
