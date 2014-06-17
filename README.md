@@ -1,7 +1,7 @@
-[Ink](https://github.com/sapo/ink)-respond
+[Ink](https://github.com/sapo/ink).EXT.Respond
 ===========
 
-Small helper for respondive websites. Ink.Respond.js will add a classname to your body tag, depending on wich CSS media query you'r in. also: portrait or landscape. this is cool for overwrites and skining on top of SAPO's [Ink](https://github.com/sapo/ink).
+Small helper for respondive websites. Respond will add a classname to your body tag, depending on wich CSS media query you'r in. also: portrait or landscape. this is cool for overwrites and skining on top of SAPO's [Ink](https://github.com/sapo/ink).
 
 
 
