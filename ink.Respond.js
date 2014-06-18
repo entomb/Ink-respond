@@ -78,9 +78,7 @@ Ink.createExt('Respond', 1,  [ 'Ink.Dom.Event_1',
             var view = window.getComputedStyle( this._HTML , ':after').getPropertyValue('content');
                 view = JSON.parse(view.replace(/'/g,"").toString()).name.toString();
             this._validClasses.push(view);
-            this._validClasses = this._validClasses.filter(function (e, i, arr) {
-                                    return arr.lastIndexOf(e) === i;
-                                });
+            this._validClasses = InkArray.unique(this._validClasses);
             return view;
         },
 
