@@ -66,7 +66,6 @@ Ink.createExt('Respond', 1,  [ 'Ink.Dom.Event_1',
         update: function(){
             this.log("update");
             if(this._validClasses.length>0){
-                console.log(this._validClasses);
                 InkCss.removeClassName(this.options.target, this._validClasses);
             }
             InkCss.removeClassName(this.options.target, 'landscape, portrait');
